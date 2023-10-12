@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Poppins&display=swap');
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Montserrat:wght@600&family=Mulish:wght@500&family=Open+Sans:wght@500&family=Poppins&display=swap');
 
 :root {
     --main-color: #00113B;
+    --border-color: #2295a7;
+    --frame-color: #252e43;
     --font-color: #00CFED;
     --font-color2: rgb(219, 219, 219);
     --fonr-color3: rgb(176, 176, 176);
     --font-color4: rgb(162, 162, 162);
+    --font-color5: rgb(196, 196, 196);
     --black: #333;
     --white: #fff;
     --light-color: #666;
@@ -169,6 +171,7 @@ body {
     color: var(--font-color);
     font-size: 1.5rem;
     margin-bottom: 0;
+    font-family: "Open sans",sans-serif;
 }
 
 .home .home-left h3 {
@@ -247,6 +250,7 @@ body {
     font-size: 1.7rem;
     margin-top: 4rem;
     line-height: 2;
+    font-family: "Open sans", sans-serif;
 }
 
 
@@ -256,17 +260,90 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-top: 15rem;
 }
 
 .title-my-project h3{
     color: var(--font-color2);
     font-family: "montserrat", sans-serif;
-    font-size: 3rem;
-
+    font-size: 3.55rem;
+    margin-top: 10rem;
 }
 
+.project {
+    width: 63%;
+    margin: auto;
+    margin-top: 10rem;
+}
 
+.project .frame1 {
+    background-color: var(--frame-color);
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 3rem;
+    
+}
 
+.project .frame1 .image-p img {
+    width: 400px;
+    height: 225px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 2rem;
+    border-radius: 10px;
+} 
+
+.frame1 .desc-container {
+    width: 50%;
+    margin: auto;
+}
+
+.project .frame1 .desc-container .title-p h1 {
+    color: var(--font-color2);
+    font-family: "Poppins", sans-serif;
+}
+
+.project .frame1 .desc-container .desc-p p {
+    color: var(--font-color2);
+    font-size: 1.3rem;
+    font-family: "Open sans", sans-serif;
+    color: var(--font-color5);
+}
+
+.project .frame2 {
+    background-color: var(--frame-color);
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.project .frame2 .image-p img {
+    width: 400px;
+    height: 225px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 2rem;
+    border-radius: 10px;
+} 
+
+.frame2 .desc-container {
+    width: 50%;
+    margin: auto;
+    float: right;
+    text-align: right;
+}
+
+.project .frame2 .desc-container .title-p h1 {
+    color: var(--font-color2);
+    font-family: "Poppins", sans-serif;
+}
+
+.project .frame2 .desc-container .desc-p p {
+    color: var(--font-color2);
+    font-size: 1.3rem;
+    font-family: "Open sans", sans-serif;
+    color: var(--font-color5);
+}
 
 
 
@@ -303,7 +380,9 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    color: rgb(219, 219, 219);
+    color: var(--fonr-color3);
+    font-family: "Open sans", sans-serif;
+    margin-top: 10px;
 }
 
 .contact .email i {
@@ -318,7 +397,9 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    color: rgb(219, 219, 219);
+    color: var(--fonr-color3);
+    font-family: "Open sans", sans-serif;
+    margin-top: 10px;
 }
 
 .contact .linkedin i {
@@ -333,10 +414,12 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    color: rgb(219, 219, 219);
+    color: var(--fonr-color3);
+    font-family: "Open sans", sans-serif;
+    margin-top: 10px;
 }
 
-.contact .github i {
+.contact .facebook i {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -344,11 +427,24 @@ body {
     font-size: 80px;
 }
 
-.contact .github h3 {
+.contact .facebook h3 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: var(--fonr-color3);
+    font-family: "Open sans", sans-serif;
+    margin-top: 10px;
+}
+
+.contact h1 {
     align-items: center;
     justify-content: center;
     display: flex;
     color: rgb(219, 219, 219);
+    font-family: "mulish", sans-serif;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 
