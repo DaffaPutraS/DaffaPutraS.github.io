@@ -22,41 +22,41 @@
 
     <!-- HEADER STARTS -->
     <header class="header">
-        <section class="flex">
+        <div class="flex">
             <a href="#home" class="logo"><img src="image/logo-dapskuy-neww.png" alt="Logo"></a>
             <nav class="navbar">
                     <a href="#about">About</a>
                     <a href="#project">Project</a>
+                    <a href="#contact"><span>Contact</span></a>
             </nav>
-            <div class="button-contact-header">
-                <a href="#contact">Contact</a>
-            </div>
             <div id="menu-btn" class="fas fa-bars"></div>
-        </section>
+        </div>
     </header>
     <!-- HEADER ENDS -->
 
     <!-- HOME STARTS -->
-    <div class="home" id="home">
-        <div class="home-left">
-            <p>Hi, my name is</p>
-            <h3>Daffa Putra Setyatama</h3>
-            <h4>I'm Software Engineer & Front-End Developer</h4>
-            <h5>i'm a Depok-based software engineer who specializes in building (and occasionally designing).Sometimes I enjoy designing <span>software interfaces and websites</span> where user experience is also considered.</h5>
+    <section class="homee">
+        <div class="home" id="home">
+                <div class="home-left">
+                    <p>Hi, my name is</p>
+                    <h3>Daffa Putra Setyatama</h3>
+                    <h4>I'm Software Engineer & Front-End Developer</h4>
+                    <h5>i'm a Depok-based software engineer who specializes in building (and occasionally designing).Sometimes I enjoy designing <span>software interfaces and websites</span> where user experience is also considered.</h5>
+                </div>
+                <div class="home-right">
+                    <img src="image/foto-sendiri-fix.jpg" alt="my picture">
+                </div>
         </div>
-        <div class="home-right">
-            <img src="image/foto-sendiri-fix.jpg" alt="my picture">
-        </div>
-    </div>
+    </section>
     <!-- HOME ENDS -->
 
     <!-- ABOUT STARTS -->
     <div class="title-about" id="about">
         <h3>About Me</h3>
     </div>
-    <div class="about">
+    <section class="about">
         <div class="about-vektor">
-            <img src="image/vektor-about.png" alt="picture about">
+            <img src="image/vektor-about.png" alt="about vektor from canva">
         </div>
         <div class="about-description">
             <p>I live in Depok city and I am a student at Jakarta State Polytechnic and CCIT FTUI. My daily activities and hobbies include Coding, Playing Games, and occasionally playing basketball.<br>
@@ -67,96 +67,132 @@
                 • CSS<br>
             </p>
         </div>
-    </div>
+    </section>
     <!-- ABOUT ENDS -->
 
     <!-- PROJECT STARTS -->
     <div class="title-my-project">
         <h3 id="project">My Recent Project</h3>
     </div>
-    <div class="project">
-        <div class="frame1">
-            <div class="image-p">
-                <img src="image/Project1_.png" alt="Cooking Recipe websites">
-            </div>
-            <div class="desc-container">
-                <div class="title-p">
-                    <h1>Cooking Recipe</h1>
+    <section class="project">
+        <div class="project-container">
+            <!-- Frame 1-->
+            <div class="frame1">
+                <div class="outside-image-p">
+                    <div class="image-p">
+                        <img src="image/project1__.png" alt="Cooking Recipe websites">
+                        <div class="button-popup">
+                            <button><a href="#home">See more</a></button>
+                        </div>
+                    </div>
                 </div>
-                <div class="desc-p">
-                    <p>This is my website project about food recipes. This website contains information about various popular food recipes. And this website is based on a landing page.</p>
+                <div class="desc-container">
+                    <div class="title-p">
+                        <h1>Cooking Recipe</h1>
+                    </div>
+                    <div class="desc-p">
+                        <p>This is my website project about food recipes. This website contains information about various popular food recipes. And this website is based on a landing page.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Frame 2-->
+            <div class="frame2">
+                <div class="desc-container">
+                    <div class="title-p">
+                        <h1>Kopfee Senja</h1>
+                    </div>
+                    <div class="desc-p">
+                        <p>This is my website project about a coffee restaurant that can be ordered through the website for a seamless experience. You can also make table reservations online or visit us in person.</p>
+                        
+                    </div>
+                </div>
+                <div class="outside-image-p">
+                    <div class="image-p">
+                        <img src="image/project5__.png" alt="Cooking Recipe websites">
+                        <div class="button-popup">
+                            <button><a href="#home">See more</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Frame 1-->
+            <div class="frame1">
+                <div class="outside-image-p">
+                    <div class="image-p">
+                        <img src="image/Project6.png" alt="Cooking Recipe websites">
+                        <div class="button-popup">
+                            <button><a href="#home">See more</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="desc-container">
+                    <div class="title-p">
+                        <h1>Cooking Recipe</h1>
+                    </div>
+                    <div class="desc-p">
+                        <p>This is my Android app project about food recipes. This is the mobile version of my website project. In this app, users can search for popular dishes from various countries. It also features many functions like searching and saving recipes.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Frame 2-->
+            <div class="frame2">
+                <div class="desc-container">
+                    <div class="title-p">
+                        <h1>OwnCloud</h1>
+                    </div>
+                    <div class="desc-p">
+                        <p>This is my first Android app project about cloud storage, focusing only on photos. However, it is only for temporary storage as it uses an SQLite database. It includes various features such as adding photos, editing names and images, and also deleting photos.</p>
+                    </div>
+                </div>
+                <div class="outside-image-p">
+                    <div class="image-p">
+                        <img src="image/Project7.png" alt="Cooking Recipe websites">
+                        <div class="button-popup">
+                            <button><a href="#home">See more</a></button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="frame2">
-            <div class="desc-container">
-                <div class="title-p">
-                    <h1>Kopfee Senja</h1>
-                </div>
-                <div class="desc-p">
-                    <p>This is my website project about a coffee restaurant that can be ordered through the website for a seamless experience. You can also make table reservations online or visit us in person.</p>
-                </div>
-            </div>
-            <div class="image-p">
-                <img src="image/Project5_.png" alt="Cooking Recipe websites">
-            </div>
-        </div>
-        <div class="frame1">
-            <div class="image-p">
-                <img src="image/Project6.png" alt="Cooking Recipe websites">
-            </div>
-            <div class="desc-container">
-                <div class="title-p">
-                    <h1>Cooking Recipe</h1>
-                </div>
-                <div class="desc-p">
-                    <p>This is my Android app project about food recipes. This is the mobile version of my website project. In this app, users can search for popular dishes from various countries. It also features many functions like searching and saving recipes.</p>
-                </div>
-            </div>
-        </div>
-        <div class="frame2">
-            <div class="desc-container">
-                <div class="title-p">
-                    <h1>OwnCloud</h1>
-                </div>
-                <div class="desc-p">
-                    <p>This is my first Android app project about cloud storage, focusing only on photos. However, it is only for temporary storage as it uses an SQLite database. It includes various features such as adding photos, editing names and images, and also deleting photos.</p>
-                </div>
-            </div>
-            <div class="image-p">
-                <img src="image/Project7.png" alt="Cooking Recipe websites">
-            </div>
-        </div>
-    </div>
+    </section>
     <!-- PROJECT ENDS -->
 
     <!-- CONTACT STARTS -->
     <div class="contact-title" id="contact">
         <h3>Contact</h3>
     </div>
-    <div class="contact">
-        <div class="whatsapp">
-            <i class="fa-brands fa-square-whatsapp"></i>
-            <h1>WhatsApp</h1>
-            <h3>(+62) 81313185909</h3>
+    <section class="contact">
+        <div class="contact-container">
+            <div class="box">
+                <i class="fa-brands fa-square-whatsapp"></i>
+                <h1>WhatsApp</h1>
+                <h3>(+62) 81313185909</h3>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-envelope"></i>
+                <h1>Email</h1>
+                <h3>daffap434@gmail.com</h3>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-linkedin"></i>
+                <h1>LinkedIn</h1>
+                <h3>Daffa Putra Setyatama</h3>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-square-facebook"></i>
+                <h1>Facebook</h1>
+                <h3>Daffa Putra Setyatama</h3>
+            </div>
         </div>
-        <div class="email">
-            <i class="fa-solid fa-envelope"></i>
-            <h1>Email</h1>
-            <h3>daffap434@gmail.com</h3>
+        <div class="credit"> 
+            <p> &copy;copyright @2023 by <span>Dapskuy</span> | all rights reserved </p>
         </div>
-        <div class="linkedin">
-            <i class="fa-brands fa-linkedin"></i>
-            <h1>LinkedIn</h1>
-            <h3>Daffa Putra Setyatama</h3>
-        </div>
-        <div class="facebook">
-            <i class="fa-brands fa-square-facebook"></i>
-            <h1>Facebook</h1>
-            <h3>Daffa Putra Setyatama</h3>
-        </div>
-    </div>
+    </section>
     <!-- CONTACT ENDS -->
+
+
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>
