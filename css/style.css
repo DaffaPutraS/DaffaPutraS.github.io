@@ -782,6 +782,10 @@ body {
 
 
 @media screen and (max-width: 507px) {
+    .home {
+        margin-top: 0;
+    }
+
     .home .home-right img {
         width: 239px;
         height: 230px;
