@@ -90,7 +90,7 @@ body {
 /* HEADER */
 .header {
     position: -webkit-sticky;
-    position: sticky;
+    
     top: 0;
     left: 0;
     right: 0;
@@ -110,6 +110,7 @@ body {
 .header .flex .logo img {
     height: 5rem;
     padding-left: 5rem;
+    animation: fade-out 1s backwards;
 }
 
 .header .flex .navbar {
@@ -122,6 +123,7 @@ body {
     color: rgb(219, 219, 219);
     text-decoration: none;
     font-family: "Poppins", sans-serif;
+    animation: fade-out 1s backwards;
 }
 
 .header .flex .navbar span {
@@ -173,6 +175,7 @@ body {
 .home-left {
     flex: 2.8;
     margin-left: 12rem;
+    animation: fade-out2 0.5s backwards;
 }
 
 .home-right {
@@ -180,6 +183,7 @@ body {
     position: relative;
     padding-left: 3rem;
     margin-right: 12rem;
+    animation: fade-out3 0.5s backwards;
 }
 
 .home .home-left p {
@@ -236,6 +240,7 @@ body {
     color: rgb(219, 219, 219);
     font-family: "montserrat", sans-serif;
     font-size: 3.5rem;
+    animation: fade-out4 1s backwards;
 }
 
 .about {
@@ -260,6 +265,7 @@ body {
     /*width: 400px;
     height: 400px;*/
     width: 70%;
+    animation: fade-out2 0.5s backwards;
 }
 
 .about .about-description {
@@ -274,6 +280,7 @@ body {
     padding-left: 5rem;
     line-height: 2;
     font-family: "Open sans", sans-serif;
+    animation: fade-out3 0.5s backwards;
 }
 
 
@@ -293,6 +300,7 @@ body {
     font-size: 3.55rem;
     margin-top: 10rem;
     text-align: center;
+    animation: fade-out4 1s backwards;
 }
 
 .project-container {
@@ -313,6 +321,7 @@ body {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    animation: fade-out2 0.5s backwards;
 }
 
 .frame1 .outside-image-p {
@@ -417,6 +426,7 @@ body {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    animation: fade-out3 0.5s backwards;
 }
 
 .frame2 .outside-image-p {
@@ -519,6 +529,7 @@ body {
     text-align: center;
     display: flex;
     margin-bottom: 5rem;
+    animation: fade-out4 1s backwards;
 }
 
 .contact-title h3 {
@@ -538,6 +549,7 @@ body {
 
 .contact .contact-container .box {
     text-align: center;
+    animation: fade-out 0.5s backwards;
 }
 
 .contact .contact-container .box i {
@@ -581,6 +593,7 @@ body {
 }
 
 
+/*KEYFRAME*/
 @-webkit-keyframes animate {
     0% {
         transform: scaleY(0);
@@ -590,6 +603,54 @@ body {
 @keyframes animate {
     0% {
         transform: scaleY(0);
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes fade-out2 {
+    0% {
+        opacity: 0;
+        transform: translatex(-40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translatex(0);
+    }
+}
+
+@keyframes fade-out3 {
+    0% {
+        opacity: 0;
+        transform: translatex(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translatex(0);
+    }
+}
+
+@keyframes fade-out4 {
+    0% {
+        opacity: 0;
+        transform: translatey(-10px) scale(0.7);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translatey(0) scale(1);
     }
 }
 
