@@ -463,6 +463,9 @@ body {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     opacity: 0; 
     transition: opacity 0.3s; 
 }
@@ -472,10 +475,9 @@ body {
     padding: 10px 20px 33px 20px;
     border: none;
     border-radius: 7px;
-    margin-top: 9.2rem;
     cursor: pointer;
-    width: 15vh;
-    height: 5vh;
+    width: 35%;
+    height: 10%;
 }
 
 .frame2 .image-p .button-popup button:hover {
@@ -487,6 +489,7 @@ body {
     text-decoration: none;
     color: var(--font-color2);
     font-size: 1.5rem;
+    width: 10px;
 }
 
 .frame2 .image-p:hover img {
@@ -665,6 +668,16 @@ body {
         height: 12%;
         padding-top: 15px;
     }
+
+    .frame2 .image-p .button-popup button a {
+        font-size: 1.18rem;
+    }
+
+    .frame2 .image-p .button-popup button {
+        width: 40%;
+        height: 12%;
+        padding-top: 15px;
+    }
 }
 
 
@@ -677,6 +690,11 @@ body {
     }
 
     .frame1 .image-p .button-popup button {
+        width: 42%;
+        height: 15%;
+    }
+
+    .frame2 .image-p .button-popup button {
         width: 42%;
         height: 15%;
     }
