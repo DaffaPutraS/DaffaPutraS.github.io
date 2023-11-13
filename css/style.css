@@ -90,7 +90,6 @@ body {
 /* HEADER */
 .header {
     position: -webkit-sticky;
-    
     top: 0;
     left: 0;
     right: 0;
@@ -175,7 +174,7 @@ body {
 .home-left {
     flex: 2.8;
     margin-left: 12rem;
-    animation: fade-out2 0.5s backwards;
+    animation: fade-out2 1.8s backwards;
 }
 
 .home-right {
@@ -183,7 +182,7 @@ body {
     position: relative;
     padding-left: 3rem;
     margin-right: 12rem;
-    animation: fade-out3 0.5s backwards;
+    animation: fade-out3 1.8s backwards;
 }
 
 .home .home-left p {
@@ -240,7 +239,7 @@ body {
     color: rgb(219, 219, 219);
     font-family: "montserrat", sans-serif;
     font-size: 3.5rem;
-    animation: fade-out4 1s backwards;
+    animation: fade-out4 1.7s backwards;
 }
 
 .about {
@@ -265,7 +264,7 @@ body {
     /*width: 400px;
     height: 400px;*/
     width: 70%;
-    animation: fade-out2 0.5s backwards;
+    animation: fade-out2 1.8s backwards;
 }
 
 .about .about-description {
@@ -280,7 +279,7 @@ body {
     padding-left: 5rem;
     line-height: 2;
     font-family: "Open sans", sans-serif;
-    animation: fade-out3 0.5s backwards;
+    animation: fade-out3 1.8s backwards;
 }
 
 
@@ -300,7 +299,7 @@ body {
     font-size: 3.55rem;
     margin-top: 10rem;
     text-align: center;
-    animation: fade-out4 1s backwards;
+    animation: fade-out4 1.7s backwards;
 }
 
 .project-container {
@@ -321,7 +320,7 @@ body {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    animation: fade-out2 0.5s backwards;
+    animation: fade-out2 1.8s backwards;
 }
 
 .frame1 .outside-image-p {
@@ -439,7 +438,7 @@ body {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    animation: fade-out3 0.5s backwards;
+    animation: fade-out3 1.8s backwards;
 }
 
 .frame2 .outside-image-p {
@@ -548,7 +547,7 @@ body {
     text-align: center;
     display: flex;
     margin-bottom: 5rem;
-    animation: fade-out4 1s backwards;
+    animation: fade-out4 1.7s backwards;
 }
 
 .contact-title h3 {
@@ -568,7 +567,7 @@ body {
 
 .contact .contact-container .box {
     text-align: center;
-    animation: fade-out 0.5s backwards;
+    animation: fade-out 1.8s backwards;
 }
 
 .contact .contact-container .box i {
