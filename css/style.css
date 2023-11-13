@@ -365,27 +365,40 @@ body {
     transition: opacity 0.3s; 
 }
 
-.frame1 .image-p .button-popup button {
-    background-color: var(--border-color);
-    border: none;
+/*.frame1 .image-p .button-popup button {
+    background-color: #303b57;
+    border: 2px solid var(--font-color);
     border-radius: 7px;
     padding: 10px 20px 33px 20px;
     cursor: pointer;
     width: 35%;
     height: 10%;
+}*/
+
+.frame1 .image-p .button-popup a {
+    background-color: #586279;
+    border: 1px solid #7582a1;
+    border-radius: 7px;
+    padding: 10px 20px 33px 20px;
+    cursor: pointer;
+    width: 35%;
+    height: 10%;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.5rem;
 }
 
-.frame1 .image-p .button-popup button:hover {
-    background-color: #1e7481;
+.frame1 .image-p .button-popup a:hover {
+    background-color: #202530;
     transition: 0.5s;
 }
 
-.frame1 .image-p .button-popup button a {
+/*.frame1 .image-p .button-popup button a {
     text-decoration: none;
-    color: var(--font-color2);
+    color: var(--font-color);
     font-size: 1.5rem;
     width: 10px;
-}
+}*/
 
 .frame1 .image-p:hover img {
     transform: scale(1.02);
@@ -470,27 +483,30 @@ body {
     transition: opacity 0.3s; 
 }
 
-.frame2 .image-p .button-popup button {
-    background-color: var(--border-color);
-    padding: 10px 20px 33px 20px;
-    border: none;
+.frame2 .image-p .button-popup a {
+    background-color: #586279;
+    border: 1px solid #7582a1;
     border-radius: 7px;
+    padding: 10px 20px 33px 20px;
     cursor: pointer;
     width: 35%;
     height: 10%;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.5rem;
 }
 
-.frame2 .image-p .button-popup button:hover {
-    background-color: #1e7481;
+.frame2 .image-p .button-popup a:hover {
+    background-color: #202530;
     transition: 0.5s;
 }
 
-.frame2 .image-p .button-popup button a {
+/*.frame2 .image-p .button-popup button a {
     text-decoration: none;
     color: var(--font-color2);
     font-size: 1.5rem;
     width: 10px;
-}
+}*/
 
 .frame2 .image-p:hover img {
     transform: scale(1.02);
@@ -658,22 +674,16 @@ body {
 }
 
 /*MEDIA SCREEN*/
-@media screen and (max-width: 1141px) {
-    .frame1 .image-p .button-popup button a {
+@media screen and (max-width: 1151px) {
+    .frame1 .image-p .button-popup a {
         font-size: 1.18rem;
-    }
-
-    .frame1 .image-p .button-popup button {
         width: 40%;
         height: 12%;
         padding-top: 15px;
     }
 
-    .frame2 .image-p .button-popup button a {
+    .frame2 .image-p .button-popup a {
         font-size: 1.18rem;
-    }
-
-    .frame2 .image-p .button-popup button {
         width: 40%;
         height: 12%;
         padding-top: 15px;
@@ -689,12 +699,12 @@ body {
         margin-top: 1rem;
     }
 
-    .frame1 .image-p .button-popup button {
+    .frame1 .image-p .button-popup a {
         width: 42%;
         height: 15%;
     }
 
-    .frame2 .image-p .button-popup button {
+    .frame2 .image-p .button-popup a {
         width: 42%;
         height: 15%;
     }
@@ -904,6 +914,19 @@ body {
 
     .project-container {
         margin-top: 5rem;
+    }
+}
+
+
+@media screen and (max-width: 341px) {
+    .frame1 .image-p .button-popup a {
+        width: 47%;
+        height: 19%;
+    }
+
+    .frame2 .image-p .button-popup a {
+        width: 47%;
+        height: 19%;
     }
 }
 
