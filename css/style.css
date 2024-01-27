@@ -173,7 +173,7 @@ body {
 
 .home-left {
     flex: 2.8;
-    margin-left: 12rem;
+    margin-left: 15rem;
     animation: fade-out2 1.8s backwards;
 }
 
@@ -181,7 +181,7 @@ body {
     flex: 1;
     position: relative;
     padding-left: 3rem;
-    margin-right: 12rem;
+    margin-right: 15rem;
     animation: fade-out3 1.8s backwards;
 }
 
@@ -590,6 +590,13 @@ body {
     font-size: 1.6rem;
     color: var(--font-color3);
     margin: 1rem 0;
+}
+
+.contact .contact-container .box h3 a {
+    text-decoration: none;
+    line-height: 2rem;
+    font-size: 1.6rem;
+    color: var(--font-color3);
 }
 
 .contact .credit {
